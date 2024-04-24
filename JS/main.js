@@ -63,7 +63,7 @@ for (let i = 0; i < NumeroCirculos; i++) {
 
     let randomX = Math.random() * (window_width-200)+100;
     let randomY = Math.random() * (window_height-200)+100;
-    let randomRadius = Math.floor(Math.random() * 90 + 25);
+    let randomRadius = Math.floor(Math.random() * 60 + 35);
     let randomSpeed = Math.floor(Math.random() * 8) + 1;
 
     let miCirculo = new Circle(randomX, randomY, randomRadius, 'Blue', i + 1, randomSpeed);
